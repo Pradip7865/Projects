@@ -1,0 +1,51 @@
+/* navbar */
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    background: var(--charcoal);
+    background: var(--charcoal);
+}
+.navBar .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navBar ul{
+    display: flex;
+}
+.navBar ul li{
+    list-style: none;
+}
+.navBar ul li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    color: var(--classic-yellow);
+    transition: 500ms;
+}
+.navBar ul li a:hover,
+.navBar ul li a:active{
+    color: var(--black);
+    background: var(--classic-yellow);
+    border-radius: 7px;
+    border: 2px solid var(--white);
+}
+#quickRegister{
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    transition: 500ms;
+    background: var(--classic-yellow);
+    color: var(--black);
+}
+#quickRegister:hover{
+    background: var(--classic-yellow);
+    color: var(--black);
+    border: none;
+    border-radius: 0;
+    opacity: 0.8;
+}

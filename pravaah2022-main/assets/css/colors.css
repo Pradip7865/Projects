@@ -1,0 +1,25 @@
+:root{
+
+
+    /* Colors */
+    --black: #000;
+    --white: #fff;
+    --grey: #bbb;
+    --charcoal: #101820FF;
+    --classic-yellow: #FEE715FF;
+    --nav-hover: wheat;
+
+
+    --test-color-1: #5bccf6;
+    --test-color-2: #fcde67;
+    --test-color-3: #030e12;
+
+
+    --test-color-4: #A96762;
+    --test-color-5: #2F5C8F;
+    --test-color-6: #d85c27;
+    --test-color-7: #b999be;
+    --test-color-8: #14365d;
+
+    --test-color-9: #023059;
+}

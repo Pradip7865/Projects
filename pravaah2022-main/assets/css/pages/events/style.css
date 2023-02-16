@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid saddlebrown; */
+}
+body{
+    background: var(--classic-yellow);
+}
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.container h3{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.container .eventsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+.container .eventsContainer .event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background: var(--charcoal);
+    color: var(--white);
+    border-radius: 5px;
+}
+.container .eventsContainer .event img{
+    width: 89%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.container .eventsContainer .event .eventName{
+    color: var(--white);
+    font-weight: 800;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.container .eventsContainer .event p{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.container .eventsContainer .event ul{
+    display: flex;
+}
+.container .eventsContainer .event ul li{
+    list-style: none;
+    margin: 0 5px;
+}
+.container .eventsContainer .event ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    background: var(--classic-yellow);
+    color: var(--black);
+    transition: 500ms;
+}
+.container .eventsContainer .event ul li a:hover{
+    opacity: 0.6;
+}

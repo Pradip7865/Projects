@@ -1,0 +1,39 @@
+/* mobile css for events page */
+#landing span{
+    color: white;
+    font-size: 5rem;
+    font-family: "Techno Board";
+}
+.navBar .logo{
+    height: 40px;
+    width: 40px;
+}
+.navBar ul li a{
+    margin: 2px 0;
+    font-size: 15px;
+}
+#quickRegister{
+    font-size: 15px;
+}
+
+
+/* container */
+.container h3{
+    font-size: 40px;
+}
+.container .eventsContainer{
+    grid-template-columns: 1fr;
+}
+.container .eventsContainer .event ul{
+    flex-direction: column;
+}
+.container .eventsContainer .event ul li{
+    height: 50px;
+}
+/* mobile css for events page */
+.container .eventsContainer{
+    grid-template-columns: 1fr;
+}
+.container .eventsContainer .event ul li a{
+    width: 300px;
+}

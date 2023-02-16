@@ -1,0 +1,9 @@
+#landing span{
+    color: white;
+    font-size: 8rem;
+    font-family: "Techno Board";
+}
+#landing span#year{
+    font-size: 1rem;
+    margin-top: 0;
+}

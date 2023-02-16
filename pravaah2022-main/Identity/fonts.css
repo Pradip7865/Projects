@@ -1,0 +1,17 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');   /* font-family: 'Share Tech Mono', monospace; */
+
+/* Downloaded fonts */
+@font-face {
+    font-family: "Technotot";
+    src: url("file/Technotot.otf");
+}
+@font-face {
+    font-family: "Techno Board";
+    src: url("file/TechnoBoard.ttf");
+}
+@font-face {
+    font-family: "Proxon";
+    src: url("file/Proxon.ttf");
+    font-weight: 1200;
+}

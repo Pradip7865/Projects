@@ -1,0 +1,17 @@
+
+.container .eventsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .eventsContainer .event ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 16px;
+    background: var(--classic-yellow);
+    color: var(--black);
+    transition: 500ms;
+}
