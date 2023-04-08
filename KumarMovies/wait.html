@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link rel="stylesheet" href="wait.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+  <div>
+    <ul>
+      <li><a class="active" href="#home">Wait for downloadTimer</a></li>
+      <li><a href="#news"></a></li>
+      <li><a href="#contact"></a></li>
+      <li><a href="#about"></a></li>
+    </ul>
+  </div><br>
+
+  <center>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+      crossorigin="anonymous"></script>
+    <!-- display ads square -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7897261459200218" data-ad-slot="4941087839"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </center>
+
+
+  <center>
+    <h2>Loading Please Wait.....</h2>
+    <progress value="0" max="10" id="progressBar"></progress>
+  </center><br>
+
+  <div>
+    <center>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+        crossorigin="anonymous"></script>
+      <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"
+        data-ad-client="ca-pub-7897261459200218" data-ad-slot="6226249346"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </center>
+    <center>
+      <a href="#mybutton2">
+        <button id="mybutton">Go To Download</button>
+    </center>
+    </a>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+      crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"
+      data-ad-client="ca-pub-7897261459200218" data-ad-slot="6226249346"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div><br>
+
+<br>
+<center>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7897261459200218"
+     data-ad-slot="5076819200"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+<br>
+<center>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7897261459200218"
+     data-ad-slot="5076819200"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<br>
+<center>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7897261459200218"
+     data-ad-slot="5076819200"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+  <center>
+    <a href="#">
+      <button id="mybutton2">Download Now.</button>
+    </a>
+  </center>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7897261459200218"
+    crossorigin="anonymous"></script>
+  <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7897261459200218"
+    data-ad-slot="1520717578"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $('#mybutton').hide().delay(11000).fadeIn(0);
+    });
+    $(document).ready(function () {
+      $('#mybutton2').hide().delay(11000).fadeIn(0);
+    });
+  </script>
+  <script>
+    var timeleft = 10;
+    var downloadTimer = setInterval(function () {
+      if (timeleft <= 0) {
+        clearInterval(downloadTimer);
+      }
+      document.getElementById("progressBar").value = 10 - timeleft;
+      timeleft -= 1;
+    }, 1000);
+  </script>
+</body>
+
+</html>

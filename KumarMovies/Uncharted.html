@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kumarmovies.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shotcut icon" href="images/tled-removebg-preview.png">
+    <script src="https://kit.fontawesome.com/a024d29658.js" crossorigin="anonymous"></script>
+    <meta name="propeller" content="0760370f62e02eafa96cb66b54d32f85">
+
+
+</head>
+
+<body>
+    <nav>
+        <!-- menu btn -->
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!-- logo -->
+        <a href="index.html" class="logo">
+            <img src="images/Untitled-removebg-preview.png" alt="">
+        </a>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="#">Movies</a> </li>
+            <li><a href="#">Tv Shows</a> </li>
+            <li><a href="#">Hollywood</a> </li>
+            <li><a href="#">Bollywood</a> </li>
+
+        </ul>
+        <!-- Search -->
+        <div class="search">
+            <input type="text" placeholder="Not working">
+            <!-- serach icon -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+    </nav>
+
+
+    <!-- Movie Banner============= -->
+    <section class="movie-banner">
+        <!-- images -->
+
+        <div class="banner-movie">
+            <img src="images/peakpx (3).jpg" alt="">
+        </div>
+
+        <!-- content -->
+        <div class="banner-container">
+            <!-- title -->
+            <div class="title-container">
+                <div class="movie-title">
+                    <h1>Download Uncharted (2022) Dual Audio {Hindi-English} Bluray 480p [400MB] || 720p [1.1GB] ||
+                        1080p [2.5GB]</h1>
+                </div>
+                <div class="details">
+                    <span>18 Feb 2022</span>
+                </div>
+                <div class="details">
+                    <span>116 minut</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- banner ending -->
+
+    <!-- details -->
+    <section class="movie-details">
+        <strong>Movie Info</strong>
+        <ul>
+            <li>Full Name:Uncharted</li>
+            <li>Language: Dual Audio (Hindi-English)</li>
+            <li>Subtitles: Yes (English)</li>
+            <li>Size: 400MB & 1GB & 2.2G</li>
+            <li>Quality: 480p & 720p & 1080p – Bluray</li>
+            <li>Format: Mkv</li>
+        </ul>
+        <strong>Story Line</strong>
+        <p>street-smart Nathan Drake, is recruited by seasoned treasure hunter, Victor “Sully” Sullivan, to recover a
+            fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.</p>
+    </section>
+
+    <!-- screen shot -->
+    <section class="screenshots">
+        <strong>Screenshots</strong>
+        <!-- screenshots -->
+
+        <div class="screen-s-container">
+            <img src="images/unchrte1.webp" alt="">
+            <img src="images/unch2.webp" alt="">
+            <img src="images/unch3.webp" alt="">
+            <img src="images/unch4.webp" alt="">
+            <!-- <img src="images/peakpx (4).jpg" alt="">
+            <img src="images/peakpx (3).jpg" alt="">  -->
+        </div>
+
+    </section>
+    <!-- download -->
+    <section class="download-movie">
+
+        <div class="download-container">
+            <!-- box -->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i>400MB</span>
+                <span>English</span>
+                <span>480px</span>
+                <a href="https://driveace.in/file/NHS2BR6UCkLYaZzhziu0">Download</a>
+            </div>
+            <div class="download-box">
+                <span><i class="fas fa-server"></i>1.1GB</span>
+                <span>English</span>
+                <span>720px</span>
+                <a href="https://drivesharer.in/file/MMr12P78aDpBMeRyKxCQ">Download</a>
+            </div>
+            <div class="download-box">
+                <span><i class="fas fa-server"></i>2.5MB</span>
+                <span>English</span>
+                <span>1080px</span>
+                <a href="https://drivehub.in/file/1tlYVEc7ccS1VbUYQa7H">Download</a>
+            </div>
+        </div>
+    </section>
+    <section id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="comment">
+                        <p v-for="items in item" v-text="items"></p>
+                    </div>
+                    <!--End Comment-->
+                </div>
+                <!--End col -->
+            </div><!-- End row -->
+            <div class="row">
+                <div class="col-6">
+                    <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
+                        @keyup.enter="addItem()"></textarea>
+                    <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add
+                        Comment</button>
+                </div><!-- End col -->
+            </div>
+            <!--End Row -->
+        </div>
+        <!--End Container -->
+    </section><!-- end App -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="js/script.js"></script>
+
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+
+    <footer>
+        <p>Kumar:- work in progress in this site</p>
+        <a href="index.html" class="logo">
+            <img src="images/Untitled-removebg-preview.png" alt="">
+        </a>
+        <p>Any Suggestion mail here kumarmovies78@gmail.com</p>
+    </footer>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $(".primaryContained").on('click', function () {
+                $(".comment").addClass("commentClicked");
+            });//end click
+            $("textarea").on('keyup.enter', function () {
+                $(".comment").addClass("commentClicked");
+            });//end keyup
+        });//End Function
+
+        new Vue({
+            el: "#app",
+            data: {
+                title: 'Add a comment',
+                newItem: '',
+                item: [],
+            },
+            methods: {
+                addItem() {
+                    this.item.push(this.newItem);
+                    this.newItem = "";
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
